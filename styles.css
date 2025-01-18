@@ -60,7 +60,7 @@
   
   /* Home Section Styling */
   #home {
-    display: flex;
+    display:flex;
     flex-direction: column; /* Stack the content vertically */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
