@@ -1,0 +1,93 @@
+/* Universal reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header and Navigation Bar */
+  .top-task-bar {
+    background-color: #333;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav menu */
+    align-items: center;
+  }
+  
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Flex to position logo and nav items */
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px; /* Adjust the logo size */
+    margin-left: 20px; /* Add margin to the left */
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Aligns the menu items to the right */
+  }
+  
+  .nav-list li {
+    margin: 0 15px;
+  }
+  
+  .nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-list a:hover {
+    background-color: #575757;
+  }
+  
+  /* Home Section Styling */
+  #home {
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make the section full viewport height */
+    text-align: center;
+  }
+  
+  #home h2 {
+    font-size: 3em;
+    margin-bottom: 10px; /* Add space between heading and paragraph */
+  }
+  
+  #home p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    width: 80%; /* Limit paragraph width for better readability */
+  }
+  
+  /* Main Section Styling */
+  section {
+    padding: 40px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 20
+  
